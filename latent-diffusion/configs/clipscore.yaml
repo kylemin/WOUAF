@@ -1,0 +1,3 @@
+clipscore_metric:
+  _target_: evaluation.clipscore.CLIPScore
+  _name: ["CLIPScore"]

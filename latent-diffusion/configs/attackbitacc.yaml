@@ -1,0 +1,3 @@
+attack_accuracy:
+  _target_: evaluation.attackacc.AttackBitAcc
+  _name: ["rotate", "blur", "bright", "noise"]

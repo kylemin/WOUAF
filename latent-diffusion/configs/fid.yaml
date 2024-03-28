@@ -1,0 +1,3 @@
+fid_eval_metric:
+  _target_: evaluation.fidscore.FIDScore
+  _name: ["fid"]

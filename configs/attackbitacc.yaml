@@ -1,0 +1,4 @@
+attack_accuracy:
+  _target_: evaluation.attackacc.AttackBitAcc
+  _name: ["crop", "rotate", "blur", "bright", "noise", "erase", "jpeg", "all"]
+  data: null

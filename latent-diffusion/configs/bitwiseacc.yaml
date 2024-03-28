@@ -1,0 +1,3 @@
+bitwise_accuracy:
+  _target_: evaluation.bitwiseacc.BitAcc
+  _name: ["NGC", "Train type val"]

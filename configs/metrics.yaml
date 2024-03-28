@@ -1,0 +1,22 @@
+defaults:
+  - bitwiseacc.yaml
+  - clipscore.yaml
+#  - attackbitacc.yaml
+
+#attack_accuracy:
+  ### in _name list, put what you want to test. and uncomment corresponding attack ###
+  #_name: ["crop", "rotate", "blur"] #crop, "rotate", "blur", "bright", "noise", "erase", "jpeg"
+  #data:
+  #  crop: [0.02, 0.05, 0.08, 0.1]
+  #  rotate: [-10, -20, -30, 10, 20, 30]
+  #  blur: [3, 5, 7]
+  #  bright: [-0.1, -0.2, -0.3, 0.1, 0.2, 0.3]
+  #  noise: [0.05, 0.1, 0.15, 0.2] #[0.05, 0.1, 0.15, 0.2]
+  #  erase: [0.05, 0.1, 0.15, 0.2]
+  #  jpeg: [50, 60, 70, 80, 90]
+  #  all: [[0.02, 10, 3, -0.1, 0.05, 0.05, 90.],
+  #        [0.02, 10, 3, -0.1, 0.05, 0.05, 80.],
+  #        [0.05, 20, 5, -0.2, 0.1, 0.1, 70.],
+  #        [0.05, 20, 5,  -0.2, 0.15, 0.15, 60.],
+  #        [0.1, 30, 7, -0.3, 0.2, 0.2, 50.],
+  #       ]
