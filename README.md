@@ -38,9 +38,10 @@ CUDA_VISIBLE_DEVICES=0 python trainval_WOUAF.py \
 ## Citation
 ```bibtex
 @inproceedings{kim2024wouaf,
-  title={WOUAF: Weight Modulation for User Attribution and Fingerprinting in Text-to-Image Diffusion Models},
+  title={WOUAF: Weight modulation for user attribution and fingerprinting in text-to-image diffusion models},
   author={Kim, Changhoon and Min, Kyle and Patel, Maitreya and Cheng, Sheng and Yang, Yezhou},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={8974--8983},
   year={2024}
 }
 ```
